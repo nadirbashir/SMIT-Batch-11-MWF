@@ -1,0 +1,18 @@
+/* :root {
+    --brown: #380707;
+}
+#my-nav-style{
+    background-color: var(--brown) !important;
+    color: white !important;
+    font-weight: 600;
+}
+#my-nav-style a{
+    color: white !important;
+} */
+
+div:nth-of-type(2n) {
+    background-color: red;
+}
+div:nth-of-type(2n - 1) {
+    background-color: aqua;
+}
