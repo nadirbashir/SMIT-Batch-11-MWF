@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- inline events -->
+    <!-- <a href="/hello" onclick="var greet = 'hello'; alert(greet) ">Click</a> -->
+
+    <!-- <button onclick="greet(this)">click me</button> -->
+    <!-- <img width="100px" height="100px"
+     onmouseover="this.src='./images/big.jpg'" src="./images/banner.webp" 
+     alt="img"> -->
+
+    <!-- <img width="100px" height="100px"
+     onmouseover="this.src='./images/big.jpg'" 
+     onmouseleave="this.src='./images/banner.webp'" src="./images/banner.webp" 
+     alt="img"> -->
+    <!-- <img width="100px" height="100px"
+     onmouseover="swap(this)"
+     onmouseleave="restore(this)"
+     src="./images/banner.webp"
+     alt="img"> -->
+    <!-- <img width="100px" height="100px"
+     onmouseover="resize(this, 'big')"
+     onmouseleave="resize(this, 'small')"
+     src="./images/banner.webp"
+     alt="img"> -->
+
+    <img
+      id="banner"
+      width="100px"
+      height="100px"
+      src="./images/banner.webp"
+      alt="img"
+    />
+    <button onclick="swapImage()">Change image</button>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
