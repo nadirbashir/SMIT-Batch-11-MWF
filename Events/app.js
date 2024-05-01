@@ -1,39 +1,47 @@
-// var globalVariable = "foo";
-
-// function foo() {
-//   var local = "hello";
-//   console.log(local);
-//   console.log(globalVariable, "in function");
+// function greet() {
+//   alert("Assalam walaikum");
 // }
 
-// foo();
-// console.log(globalVariable, "outer scope");
-// console.log(local);
+// function changebg(element) {
+//   element.style.backgroundColor = "#f69223";
+// }
 
-// function greet(elem) {
-//   // alert("Assalam walaikum");
-//   // console.log(elem);
-//   console.dir(elem);
+// function getProduct() {
+//   var product = document.getElementById("product");
+
+//   console.log(product.value);
 // }
-// function swap(elem) {
-//   elem.src = "./images/big.jpg";
+
+// var emailInp = document.getElementById("email");
+
+// function checkAddress(event) {
+//   event.preventDefault();
+//   console.log(emailInp.value);
 // }
-// function restore(elem) {
-//   elem.src = "./images/banner.webp";
+
+// function setDefault() {
+//   emailInp.value = "Enter Email";
 // }
-// function resize(elem, size) {
-//   console.dir(elem);
-//   if (size === "big") {
-//     elem.width = 300;
-//     elem.height = 300;
-//   } else {
-//     elem.width = 100;
-//     elem.height = 100;
-//   }
+// setDefault();
+
+// var form = document.getElementById("productForm");
+
+// form.addEventListener("submit", checkAddress);
+
+// var fullPara =
+//   "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, recusandae maxime. Ullam repellat voluptatem porro quibusdam option hidden ratione debitis temporibus id recusandae labore maiores iure, ullam dicta velit ipsam possimus laborum fugit. In, nemo ad! Nobis, id. Deserunt ab accusantium iure suscipit culpa fugit quaerat asperiores. <a href='Javascript: void(0)' onclick='shrinkPara()'>see less</a>";
+
+// var shortpara =
+//   "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, recusandae maxime. Ullam repellat voluptatem porro quibusdam option  <a href='Javascript: void(0)' onclick='expandPara()'>see more</a>";
+
+// var para = document.getElementById("para");
+// function expandPara() {
+//   //   console.log(para.innerText);
+//   //   console.log(para.innerHTML);
+
+//   para.innerHTML = fullPara;
 // }
-function swapImage() {
-  // console.log(document);
-  // console.dir(document);
-  document.getElementById("banner").src = "./images/big.jpg";
-  //  var elem = document.getElementById('banner');
-}
+
+// function shrinkPara() {
+//   para.innerHTML = shortpara;
+// }
