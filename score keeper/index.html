@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Score keeper</h2>
+      <div class="target-container">
+        <input value="1" min="1" type="number" id="targetNum">
+        <button onclick="start()">start</button>
+      </div>
+      <div id="scoreContainer" class="score-container">
+        <div>
+          <div id="p1Score">0</div>
+          <button id="btn1" onclick="addScore('player1')">player 1</button>
+        </div>
+        <div>
+          <div id="p2Score">0</div>
+          <button id="btn2" onclick="addScore('player2')">player 2</button>
+        </div>
+      </div>
+      <h2 id="winner"></h2>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>

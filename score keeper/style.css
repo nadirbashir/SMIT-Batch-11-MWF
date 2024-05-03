@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+.container {
+  width: 500px;
+  margin: 100px auto;
+  padding: 20px;
+  background-color: bisque;
+}
+
+.target-container,
+.score-container {
+  width: 300px;
+  margin: auto;
+  text-align: center;
+}
+
+.score-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  display: none;
+}
+
+#p1Score,
+#p2Score {
+  width: 100px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+button {
+  outline: none;
+  width: 100px;
+  height: 50px;
+}
+input {
+  width: 180px;
+  height: 50px;
+}
+
+h2 {
+  text-align: center;
+}
