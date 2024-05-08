@@ -1,0 +1,25 @@
+.para {
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.extra-style {
+  background-color: bisque;
+  font-style: italic;
+}
+
+.primaryColor {
+  background-color: bisque;
+}
+
+.italic {
+  font-style: italic;
+}
+.bold {
+  font-style: italic;
+}
+
+.max-width {
+  max-width: 200px;
+  margin: auto;
+}
