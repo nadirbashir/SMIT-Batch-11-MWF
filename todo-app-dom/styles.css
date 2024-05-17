@@ -1,0 +1,33 @@
+
+h1{
+    text-align: center;
+}
+
+#container {
+    width: 500px;
+    margin: 0 auto;
+    border: 1px solid #e6e6e6;
+    text-align: center;
+    box-shadow: 0px 0px 4px 0px #e6e6e6;
+    background-color: #d3e3fd;
+    padding: 20px 30px;
+}
+
+#todo-list{
+    margin-top: 10px;
+}
+
+.todo-item {
+    padding: 10px 20px;
+    background-color: white;
+    box-shadow: 0px 0px 4px 0px #e6e6e6;
+    text-align: left;
+    border-radius: 4px;
+}
+
+.hide{
+    display: none;
+}
+.show{
+    display: block;
+}
